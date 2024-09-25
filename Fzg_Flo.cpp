@@ -134,7 +134,7 @@ int main() {
     config.setMotor("V6 Benzin");
     config.setFelgen("20 Zoll Chromfelgen");
     config.setInnenausstattung("Leder, Schwarz");
-    config.setaussenausstattung("Alu, natur");
+    config.setaussenausstattung("AHK, Alu, natur");
 
     // Konfiguration anzeigen und Gesamtpreis berechnen
     config.zeigeKonfiguration();
