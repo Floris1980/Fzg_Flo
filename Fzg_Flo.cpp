@@ -4,7 +4,7 @@
 
 class FahrzeugKonfiguration {
 private:
-    std::string modell;
+    std::string modell
     std::string farbe;
     std::string motor;
     std::string felgen;
