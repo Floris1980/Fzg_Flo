@@ -44,9 +44,9 @@ public:
         };
             
          aussenausstattungPreise = {
-            {"AHK", 0.0},
-            {"Stahl, Schwarz", 500.0},
-            {"Alu, natur", 1000.0}
+            {"ohne AHK", 0.0},
+            {"AHK Stahl, Schwarz", 500.0},
+            {"AHK Alu, natur", 1000.0}
         };
     }
 
@@ -134,7 +134,7 @@ int main() {
     config.setMotor("V6 Benzin");
     config.setFelgen("20 Zoll Chromfelgen");
     config.setInnenausstattung("Leder, Schwarz");
-    config.setaussenausstattung("AHK, Alu, natur");
+    config.setaussenausstattung("AHK Alu, natur");
 
     // Konfiguration anzeigen und Gesamtpreis berechnen
     config.zeigeKonfiguration();
